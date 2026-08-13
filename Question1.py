@@ -12,5 +12,9 @@ def validate_pass(pass_code):
         return "invalid format"
     
     return "valid"
-    
+
+print(validate_pass(""))  
+print(validate_pass("P12"))  
+print(validate_pass("w12345")) 
+print(validate_pass("P123 456"))        
 print(validate_pass("Precious"))        
