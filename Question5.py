@@ -10,7 +10,7 @@ def validate_pass(pass_code):
         
     if " " in pass_code:
         return "invalid format"
-    
+        
     return "valid"
 
 print(validate_pass(""))  
