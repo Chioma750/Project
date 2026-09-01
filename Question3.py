@@ -15,6 +15,11 @@ Tax: {tax:.2f}
 Total: {total:.2f}"""
 
 # :.2f = display a number with 2 decimal places.
+# An f-string allows us to put variables inside the string using {}.
 # """ This is called a multiline string.
 
 print(receipt_formatter("Chioma", 5, 50))
+print()
+print(receipt_formatter("Adesua", 5, 500))
+
+
